@@ -29,3 +29,11 @@ if [ -f "$HOME/.git-completion.sh" ]; then
     source "$HOME/.git-completion.sh"
 fi
 
+# Add brew tab completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
+
+# Load RVM into the shell
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
