@@ -24,3 +24,8 @@ export LANG="en_US"
 # Set prompt
 PS1="\u@\h:\W\$ "
 
+# Add git tab completion
+if [ -f "$HOME/.git-completion.sh" ]; then
+    source "$HOME/.git-completion.sh"
+fi
+
