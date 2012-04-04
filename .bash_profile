@@ -29,3 +29,6 @@ if [ -f "$HOME/.git-completion.sh" ]; then
     source "$HOME/.git-completion.sh"
 fi
 
+# add ant target tab completion
+complete -C /usr/share/ant/bin/complete-ant-cmd.pl ant
+
