@@ -37,3 +37,6 @@ fi
 # Load RVM into the shell
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+# add ant target tab completion
+complete -C /usr/share/java/ant-1.8.2/bin/complete-ant-cmd.pl ant
+
