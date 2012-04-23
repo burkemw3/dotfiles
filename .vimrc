@@ -19,3 +19,6 @@ set shiftwidth=4
 " Insert spaces instead of tabs
 set expandtab
 
+" enable mouse events (need SIMBL and MouseTerm on OS X)
+set mouse=a
+
