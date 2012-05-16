@@ -6,6 +6,9 @@ set background=dark
 " Show line numbers
 set number
 
+" Show current line and column number
+set ruler
+
 " Optimize for fast terminal connections
 set ttyfast
 
